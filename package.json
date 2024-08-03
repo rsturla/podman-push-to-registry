@@ -1,0 +1,20 @@
+{
+  "name": "implementation",
+  "packageManager": "yarn@4.4.0",
+  "scripts": {
+    "bundle": "ncc build ./src/index.ts --source-map --minify"
+  },
+  "devDependencies": {
+    "@types/ini": "^4.1.1",
+    "@types/node": "^22.1.0",
+    "@vercel/ncc": "^0.38.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^6.0.0",
+    "@actions/io": "^1.1.3",
+    "ini": "^4.1.3"
+  }
+}
