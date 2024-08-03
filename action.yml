@@ -1,0 +1,5 @@
+name: Podman Push To Registry
+
+runs:
+  using: node20
+  main: ./dist/index.js
